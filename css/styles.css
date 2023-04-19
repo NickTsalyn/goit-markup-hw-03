@@ -176,6 +176,7 @@ body {
 
 .hero-container {
   text-align: center;
+    margin: 0 auto
 }
 
 .main-title {
@@ -185,12 +186,12 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  margin-bottom: 48px;
-  margin: 0 auto
+  margin: 0 auto 48px auto;
 }
 
 .section-main {
   background: #2e2f42;
+    padding: 188px 0;
 }
 
 .button {
@@ -341,6 +342,7 @@ footer {
 }
 
 .logo-style {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
