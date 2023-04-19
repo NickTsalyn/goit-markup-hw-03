@@ -226,6 +226,10 @@ body {
   |============================
 */
 
+.second-section {
+  padding-top: 0;
+}
+
 .features {
   display: flex;
   justify-content: space-between;
