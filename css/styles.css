@@ -418,10 +418,6 @@ footer {
 }
 
 .project-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.project-container {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
