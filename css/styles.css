@@ -37,8 +37,7 @@ body {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .section {
@@ -69,8 +68,6 @@ body {
 */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -78,7 +75,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .menu-container {
@@ -134,6 +130,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-list-item:hover,
