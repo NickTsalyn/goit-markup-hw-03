@@ -75,7 +75,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .menu-container {
@@ -217,7 +217,7 @@ body {
 .features {
   display: flex;
   justify-content: space-between;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .features-title {
@@ -288,7 +288,7 @@ body {
 }
 
 .team-list-container {
-  padding: 16px 32px;
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -352,7 +352,6 @@ footer {
 */
 
 .list-button {
-  /* width: 586px; */
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -391,6 +390,7 @@ footer {
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .button-item:hover,
@@ -398,6 +398,7 @@ footer {
   background-color: #404bbf;
   color: #ffffff;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .title {
